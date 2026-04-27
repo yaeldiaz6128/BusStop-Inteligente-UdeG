@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradas Inclusivas - Red Universitaria UdeG</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient {
+            background: linear-gradient(135deg, #002542 0%, #ad9331 100%);
+        }
+        .feature-card:hover { border-color: #ad9331; transform: translateY(-5px); transition: all 0.3s ease; }
+        .udg-blue { color: #002542; }
+        .bg-udg-blue { background-color: #002542; }
+        .member-card:hover { background-color: #f8fafc; border-left: 4px solid #ad9331; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <header class="hero-gradient text-white py-20 px-6 shadow-2xl relative overflow-hidden">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 relative z-10">
+            <div class="flex-1 text-center md:text-left">
+                <span class="bg-blue-500/30 px-4 py-1 rounded-full text-sm font-semibold mb-4 inline-block border border-white/20">NEXOZ TEAM</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Paradas Inteligentes <br><span class="text-yellow-400">e Inclusivas</span>
+                </h1>
+                <p class="text-xl text-blue-50 max-w-2xl mx-auto md:mx-0">
+                    Rediseñando la conexión entre <strong>los centros universitarios</strong> con un modelo de transporte accesible y seguro para toda la comunidad universitaria.
+                </p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-2xl shadow-xl transition-transform hover:scale-105 duration-300">
+                <img src="udg.png" alt="Logo UdeG" class="h-28 md:h-36 w-auto object-contain">
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto py-16 px-6">
+        
+        <section class="mb-24">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold udg-blue mb-4">Accesibilidad Universal</h2>
+                <div class="w-24 h-1 bg-yellow-500 mx-auto"></div>
+                <p class="text-slate-500 mt-4 text-lg">Espacios diseñados para eliminar las barreras de movilidad y comunicación.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card bg-white p-8 rounded-3xl shadow-md border-2 border-transparent transition-all">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-800 rounded-2xl flex items-center justify-center mb-6 shadow-inner">
+                        <i class="fas fa-wheelchair fa-2x"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 udg-blue">Movilidad Física</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Rampas de acceso normativas, áreas de espera para sillas de ruedas y plataformas de abordaje niveladas con la unidad.
+                    </p>
+                </div>
+
+                <div class="feature-card bg-white p-8 rounded-3xl shadow-md border-2 border-transparent transition-all">
+                    <div class="w-16 h-16 bg-yellow-100 text-yellow-700 rounded-2xl flex items-center justify-center mb-6 shadow-inner">
+                        <i class="fas fa-braille fa-2x"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 udg-blue">Guías y Audio</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Pavimento podotáctil de alta durabilidad, señalética en Braille y sistemas de audio para anunciar rutas y tiempos de llegada.
+                    </p>
+                </div>
+
+                <div class="feature-card bg-white p-8 rounded-3xl shadow-md border-2 border-transparent transition-all">
+                    <div class="w-16 h-16 bg-green-100 text-green-700 rounded-2xl flex items-center justify-center mb-6 shadow-inner">
+                        <i class="fas fa-deaf fa-2x"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 udg-blue">Señales Visuales</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Pantallas de alto contraste con información en tiempo real y alertas luminosas estroboscópicas de proximidad.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-udg-blue rounded-[3.5rem] p-8 md:p-16 text-white shadow-2xl relative overflow-hidden mb-24">
+            <div class="relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-6 text-white">CiberSeguridad Presente</h2>
+                    <p class="text-slate-100 mb-10 leading-relaxed text-lg opacity-90">
+                        La seguridad estudiantil es nuestro pilar. Cada parada cuenta con tecnología de respuesta inmediata conectada al centro de monitoreo institucional.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-5 p-5 rounded-3xl bg-white/10 border border-white/10 backdrop-blur-sm">
+                            <div class="bg-red-500 p-4 rounded-full shadow-lg shadow-red-500/50 animate-pulse">
+                                <i class="fas fa-bell text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xl text-white">Botón de Pánico</h4>
+                                <p class="text-slate-200 text-sm mt-1">Ubicado ergonómicamente para una activación rápida en situaciones de riesgo.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-5 p-5 rounded-3xl bg-white/10 border border-white/10 backdrop-blur-sm">
+                            <div class="bg-blue-500 p-4 rounded-full shadow-lg shadow-blue-500/50">
+                                <i class="fas fa-video text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-xl text-white">Monitoreo con Cámaras 360°</h4>
+                                <p class="text-slate-200 text-sm mt-1">Cámaras domo de alta resolución con visión nocturna y enlace directo al C5-UdeG.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-yellow-500 to-blue-400 rounded-[2rem] blur opacity-30 group-hover:opacity-60 transition duration-1000"></div>
+                    <div class="relative bg-slate-900 rounded-[2rem] border border-white/20 overflow-hidden shadow-2xl">
+                        <img src="BusStop.jpeg" alt="Prototipo Parada UdeG" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition duration-700">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-8">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="w-2 h-2 bg-red-500 rounded-full animate-ping"></span>
+                                <p class="font-mono text-xs tracking-widest text-yellow-500 font-bold uppercase">Circuito Cerrado Activo</p>
+                            </div>
+                            <p class="text-white text-xs opacity-70 italic font-light">Visualización de prototipo inclusivo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-[3rem] p-10 md:p-16 shadow-xl border border-slate-100">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold udg-blue mb-2 text-center">Equipo de Desarrollo</h2>
+                <p class="text-slate-400 font-medium tracking-widest uppercase text-sm">Nexoz Team</p>
+                <div class="w-16 h-1 bg-yellow-500 mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="member-card p-6 rounded-2xl border border-slate-100 transition-all duration-300">
+                    <h4 class="font-bold text-slate-800 text-lg">Santiago Salazar Vazquez</h4>
+                    <p class="text-blue-600 text-xs font-medium mt-1">santiago.salazar4935@alumnos.udg.mx</p>
+                </div>
+                <div class="member-card p-6 rounded-2xl border border-slate-100 transition-all duration-300">
+                    <h4 class="font-bold text-slate-800 text-lg">Yael Alejandro Díaz García</h4>
+                    <p class="text-blue-600 text-xs font-medium mt-1">yael.diaz6128@alumnos.udg.mx</p>
+                </div>
+                <div class="member-card p-6 rounded-2xl border border-slate-100 transition-all duration-300">
+                    <h4 class="font-bold text-slate-800 text-lg">Víctor Hugo Pérez Sánchez</h4>
+                    <p class="text-blue-600 text-xs font-medium mt-1">victor.perez5010@alumnos.udg.mx</p>
+                </div>
+                <div class="member-card p-6 rounded-2xl border border-slate-100 transition-all duration-300">
+                    <h4 class="font-bold text-slate-800 text-lg">Jonathan Hernandez Zaragoza</h4>
+                    <p class="text-blue-600 text-xs font-medium mt-1">jonathan.hernandez4990@alumnos.udg.mx</p>
+                </div>
+                <div class="member-card p-6 rounded-2xl border border-slate-100 transition-all duration-300">
+                    <h4 class="font-bold text-slate-800 text-lg">Victor Adrian Vega Ruvalcaba</h4>
+                    <p class="text-blue-600 text-xs font-medium mt-1">victor.vega4976@alumnos.udg.mx</p>
+                </div>
+                <div class="member-card p-6 rounded-2xl border border-slate-100 transition-all duration-300">
+                    <h4 class="font-bold text-slate-800 text-lg">Alberto Gael Canales García</h4>
+                    <p class="text-blue-600 text-xs font-medium mt-1">alberto.canales8066@alumnos.udg.mx</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white py-16 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+                <div class="flex items-center gap-4">
+                    <div class="bg-udg-blue p-3 rounded-xl">
+                        <i class="fas fa-bus-alt text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="font-extrabold text-2xl tracking-tighter udg-blue uppercase">RedUdeG <span class="text-yellow-600">Inclusiva</span></span>
+                        <p class="text-xs text-slate-400 font-medium tracking-widest uppercase">Nexoz Team</p>
+                    </div>
+                </div>
+                <nav class="flex flex-wrap justify-center gap-6 text-sm font-bold text-slate-600 uppercase tracking-widest">
+                    <span>CUCEI</span>
+                    <span>CUCS</span>
+                    <span>CUGDL</span>
+                </nav>
+            </div>
+            <div class="mt-12 pt-8 border-t border-slate-100 text-center">
+                <p class="text-xs text-slate-400">
+                    &copy; 2026 Universidad de Guadalajara. Proyecto de Movilidad e Infraestructura Social.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
